@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import Counter from './pages/Counter';
 import Home from './pages/Home';
 import Header from './components/Header';
+import Todo from './pages/Todo';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
 
             <Route path="/" element={<Home />}></Route>
             <Route path="/counter" element={<Counter />}></Route>
+            <Route path="/todo" element={<Todo />}></Route>
 
           </Route>
         </Routes>
