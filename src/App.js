@@ -9,7 +9,7 @@ import Calculatro from './pages/Calculatro';
 import ToggleButtonColor from './pages/ToggleButtonColor';
 import HiddenSearchBar from './pages/HiddenSearchBar';
 import Testimonial from './pages/Testimonial';
-import Accordion from './pages/Accordion';
+import Accordion from './accordion/Accordion';
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Outlet />}>
-
             <Route path="/" element={<Home />}></Route>
             <Route path="/counter" element={<Counter />}></Route>
             <Route path="/todo" element={<Todo />}></Route>
@@ -28,7 +27,6 @@ function App() {
             <Route path="/searchbar" element={<HiddenSearchBar />}></Route>
             <Route path="/testimonial" element={<Testimonial />}></Route>
             <Route path="/accordion" element={<Accordion />}></Route>
-
           </Route>
         </Routes>
       </BrowserRouter>
