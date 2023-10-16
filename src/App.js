@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Outlet, Form } from 'react-router-dom';
 import Counter from './pages/Counter';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -10,6 +10,8 @@ import ToggleButtonColor from './pages/ToggleButtonColor';
 import HiddenSearchBar from './pages/HiddenSearchBar';
 import Testimonial from './pages/Testimonial';
 import Accordion from './accordion/Accordion';
+import FormValidate from './pages/FormValidate';
+import FilterProducts from './productsfilter/FilterProducts';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
             <Route path="/searchbar" element={<HiddenSearchBar />}></Route>
             <Route path="/testimonial" element={<Testimonial />}></Route>
             <Route path="/accordion" element={<Accordion />}></Route>
+            <Route path="/form-validate" element={<FormValidate />}></Route>
+            <Route path="/filter-products" element={<FilterProducts />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

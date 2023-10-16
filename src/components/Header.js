@@ -14,6 +14,8 @@ const Header = () => {
             <NavLink to="/searchbar">Hidden search</NavLink>
             <NavLink to="/testimonial">Testimonial</NavLink>
             <NavLink to="/accordion">Accordion</NavLink>
+            <NavLink to="/form-validate">Form Validate</NavLink>
+            <NavLink to="/filter-products">Filter Products</NavLink>
         </nav>
     </header>
   )
