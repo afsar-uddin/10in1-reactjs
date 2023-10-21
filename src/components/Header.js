@@ -17,6 +17,7 @@ const Header = () => {
             <NavLink to="/form-validate">Form Validate</NavLink>
             <NavLink to="/filter-products">Filter Products</NavLink>
             <NavLink to="/filter-tab">Filter Tab</NavLink>
+            <NavLink to="/search-filter">Search Filter</NavLink>
         </nav>
     </header>
   )
