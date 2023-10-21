@@ -12,6 +12,7 @@ import Testimonial from './pages/Testimonial';
 import Accordion from './accordion/Accordion';
 import FormValidate from './pages/FormValidate';
 import FilterProducts from './productsfilter/FilterProducts';
+import FilterTab from './filter-tab/FilterTab';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/accordion" element={<Accordion />}></Route>
             <Route path="/form-validate" element={<FormValidate />}></Route>
             <Route path="/filter-products" element={<FilterProducts />}></Route>
+            <Route path="/filter-tab" element={<FilterTab />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

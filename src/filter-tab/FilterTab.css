@@ -1,0 +1,15 @@
+.item-inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.item-inner img {
+    max-width: 100%;
+}
+
+.item-inner div {
+    width: 25%;
+    border: 5px solid #ddd;
+    padding: 15px;
+}
