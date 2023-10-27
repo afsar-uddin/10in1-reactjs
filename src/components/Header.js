@@ -18,6 +18,8 @@ const Header = () => {
             <NavLink to="/filter-products">Filter Products</NavLink>
             <NavLink to="/filter-tab">Filter Tab</NavLink>
             <NavLink to="/search-filter">Search Filter</NavLink>
+            <NavLink to="/check-filter">check-filter</NavLink>
+            <NavLink to="/multiselect-filter">MultiSelect-filter</NavLink>
         </nav>
     </header>
   )

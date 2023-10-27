@@ -14,6 +14,8 @@ import FormValidate from './pages/FormValidate';
 import FilterProducts from './productsfilter/FilterProducts';
 import FilterTab from './filter-tab/FilterTab';
 import SearchFilter from './searchfilter/SearchFilter';
+import CheckBoxfilter from './checkboxfilter/CheckBoxfilter';
+import MultiSelect from './multiselect/MultiSelect';
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
             <Route path="/filter-products" element={<FilterProducts />}></Route>
             <Route path="/filter-tab" element={<FilterTab />}></Route>
             <Route path="/search-filter" element={<SearchFilter />}></Route>
+            <Route path="/check-filter" element={<CheckBoxfilter />}></Route>
+            <Route path="/multiselect-filter" element={<MultiSelect />}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

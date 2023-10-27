@@ -3,12 +3,14 @@ import React, { useEffect, useState } from 'react'
 
 const SearchFilter = () => {
     const [data, setData] = useState([])
+    
     const [searchData, setSearchData] = useState([])
 
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/users')
         .catch(err => console.log(err))
         .then(res=> {
+            // console.log(res)
             setData(res.data)
             setSearchData(res.data)
         })
@@ -31,7 +33,9 @@ const SearchFilter = () => {
             </thead>
             <tbody>
                 {
+                    
                     searchData.map((d,i)=>(
+
                     // data.map((d,i)=>(
                         <tr key={i}>
                             <td>{d.id}</td>
